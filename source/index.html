@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Тестовое/Leadreaktor</title>
+    <link rel="preload" href="css/style.min.css" as="style">
+    <link href="css/style.min.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <header class="page-header">
+      <div class="page-header__wrapper">
+        <h2 class="page-header__attention">
+          ATTENZIONE! A causa dell’alta domanda, l'offerta di sconto del 50% è limitata.
+        </h2>
+        <nav class="page-header__navigation">
+          <ul class="navigation__list">
+            <li class="navigation__item navigation__item--first">Sesso più duraturo</li>
+            <li class="navigation__item navigation__item--second">Erezione più potente</li>
+            <li class="navigation__item navigation__item--last">Dimensioni grandi</li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="maximum-sexual">
+        <div class="maximum-sexual__wrapper">
+          <h2 class="maximum-sexual__title">
+            OTTIENI LA MASSIMA SUPREMAZIA SESSUALE!
+          </h2>
+          <ul class="maximum-sexual__list">
+            <li class="maximum-sexual__item">
+              Erezione potente e prolungata
+            </li>
+            <li class="maximum-sexual__item">
+              Stimolazione della crescita del pene
+            </li>
+            <li class="maximum-sexual__item maximum-sexual__item--last">
+              Senza effetti collaterali
+            </li>
+          </ul>
+          <div class="maximum-sexual__image">
+            <img src="img/Casanova_21.png" alt="casanova" width="194" height="346">
+            <div class="maximum-sexual__price">
+              <p class="old-price">78</p>
+              <p class="new-price">39</p>
+              <p class="currency">eur</p>
+            </div>
+            <img class="maximum-sexual__made" src="img/made-in-europe.png" alt="made-in-europe" width="90" height="83">
+          </div>
+        </div>
+      </section>
+
+      <section class="order">
+        <div class="order__wrapper">
+          <form class="order-form" action="index.html" method="post">
+            <p class="order-form__description">Approfitta dell'offerta esclusiva! Sconto del 50%!</p>
+            <div class="order-form__fieldset">
+              <label class="order-form__label order-form__label--name" for="name">Il tuo nome</label>
+              <input type="text" name="name" id="name" required>
+            </div>
+            <div class="order-form__fieldset">
+              <label class="order-form__label order-form__label--phone" for="phone">Il tuo numero di telefono</label>
+              <input type="tel" name="email" id="phone" required>
+            </div>
+            <p class="order-form__price order-form__price--old-price">Prezzo totale: <span>78 EUR</span></p>
+            <p class="order-form__price order-form__price--new-price">Prezzo scontato: 39 EUR</p>
+            <button class="btn order-form__btn" type="submit" name="button">ORDINARE CASANOVA</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="test-product">
+        <div class="test-product__wrapper">
+          <p class="test-product__text">PRODOTTO CLINICAMENTE TESTATO DA YOSHIMITSU Ltd., GIAPPONE</p>
+          <svg class="test-product__icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46" height="43" viewBox="0 0 46 43">
+            <image id="Группа_2" data-name="Группа 2" width="46" height="43" xlink:href="data:img/png;base64,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"/>
+          </svg>
+          <img class="test-product__image" src="img/shutterstock_101779723.png" alt="doctor" width="107" height="137">
+        </div>
+      </section>
+
+      <section class="experts-says">
+        <div class="experts-says__wrapper">
+          <h2 class="experts-says__title">
+            IL PARERE DEGLI ESPERTI
+          </h2>
+          <p class="experts-says__text">Casanova è un potente rimedio per migliorare la forza sessuale maschile, che permette di condurre una vita sessuale intensa e vibrante.</p>
+          <div class="experts-says__images">
+            <img src="img/Group 1.png" alt="penises" width="288" height="134">
+          </div>
+          <p class="experts-says__text experts-says__text--last">Con l'aiuto della crema otterrai un notevole aumento delle dimensioni del pene, che si rifletterà direttamente sulla tua vita sessuale: proverai grande piacere nel rapporto con le donne e regalerai loro potenti e lunghi orgasmi.</p>
+        </div>
+      </section>
+
+      <article class="review">
+        <div class="review__wrapper">
+          <div class="review__author">
+            <img class="review__image" src="img/Эллипс 1.png" alt="doctor2" width="95" height="95">
+            <span class="review__author--who">Antony Salvor, il primario della clinica Lazarus, Atlanta</span>
+          </div>
+          <p class="review__text">
+            La formula di Casanova non solo fornisce un aumento istantaneo della forza sessuale e del desiderio, ma previene anche la disfunzione erettile garantendo la soddisfazione della coppia eripetuti atti sessuali durante la notte!
+          </p>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>

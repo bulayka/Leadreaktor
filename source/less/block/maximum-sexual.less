@@ -1,0 +1,95 @@
+.maximum-sexual {
+  background-color: #030829;
+  background-image: url("../img/friends.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.maximum-sexual__wrapper {
+  .wrapper();
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.maximum-sexual__title {
+  text-align: center;
+  font-size: 23.36px;
+}
+
+.maximum-sexual__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.maximum-sexual__item {
+  position: relative;
+  width: 180px;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding-left: 58px;
+  margin-bottom: 15px;
+
+  &--last {
+    margin-bottom: -8px;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    width: 45px;
+    height: 39px;
+    background-image: url("../img/checkbox.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+  }
+}
+
+.maximum-sexual__image {
+  position: relative;
+}
+
+.maximum-sexual__price {
+  position: absolute;
+  bottom: 45px;
+  left: -40px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../img/figure.png");
+  background-repeat: no-repeat;
+  background-position: center;
+
+  .old-price {
+    color: #fe9fac;
+    font-size: 16.3px;
+    text-decoration: line-through;
+    margin: 0;
+    margin-top: 20px;
+  }
+
+  .new-price {
+    font-size: 33.72px;
+    margin: 0;
+    margin-bottom: -5px;
+  }
+
+  .currency {
+    font-size: 18.07px;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+}
+
+.maximum-sexual__made {
+  position: absolute;
+  top: 42px;
+  right: -38px;
+}
