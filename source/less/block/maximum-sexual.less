@@ -13,8 +13,14 @@
 }
 
 .maximum-sexual__title {
-  text-align: center;
-  font-size: 23.36px;
+  h2 {
+    text-align: center;
+    font-size: 23.36px;
+  }
+}
+
+.maximum-sexual__number-one {
+  display: none;
 }
 
 .maximum-sexual__list {
@@ -35,6 +41,7 @@
 
   &--last {
     margin-bottom: -8px;
+    width: 150px;
   }
 
   &::before {
@@ -92,4 +99,57 @@
   position: absolute;
   top: 42px;
   right: -38px;
+}
+
+@media (min-width: @desktop-width) {
+  .maximum-sexual {
+    background: none;
+  }
+
+  .maximum-sexual__wrapper {
+    position: relative;
+    background-color: #030829;
+    background-image: url("../img/Group3desktop.png");
+    background-repeat: no-repeat;
+    background-position: -50px;
+  }
+
+  .maximum-sexual__number-one {
+    display: block;
+  }
+
+  .maximum-sexual__title {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+
+    h2 {
+      width: 480px;
+      font-size: 37.58px;
+      line-height: 46px;
+      font-weight: 600;
+      text-align: left;
+    }
+  }
+
+  .maximum-sexual__list {
+    order: -1;
+    display: flex;
+    margin-left: auto;
+    margin-top: 20px;
+  }
+
+  .maximum-sexual__price {
+    bottom: 50px;
+    left: -75px;
+    width: 145px;
+    height: 145px;
+    background-image: url("../img/figure-desktop.png");
+  }
+
+  .maximum-sexual__made {
+    top: 140px;
+    left: -70px;
+  }
+
 }
