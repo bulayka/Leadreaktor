@@ -18,14 +18,16 @@
         <h2 class="page-header__attention">
           ATTENZIONE! A causa dell’alta domanda, l'offerta di sconto del 50% è limitata.
         </h2>
+
+        <nav class="page-header__navigation">
+          <ul class="navigation__list">
+            <li class="navigation__item navigation__item--first">Sesso più duraturo</li>
+            <li class="navigation__item navigation__item--second">Erezione più potente</li>
+            <li class="navigation__item navigation__item--last">Dimensioni grandi</li>
+          </ul>
+        </nav>
       </div>
-      <nav class="page-header__navigation">
-        <ul class="navigation__list">
-          <li class="navigation__item navigation__item--first">Sesso più duraturo</li>
-          <li class="navigation__item navigation__item--second">Erezione più potente</li>
-          <li class="navigation__item navigation__item--last">Dimensioni grandi</li>
-        </ul>
-      </nav>
+
     </header>
 
     <main class="main">
@@ -64,8 +66,10 @@
         </div>
       </section>
 
+
       <div class="order-container">
         <section class="order">
+          <h2 class="visually-hidden">Форма заказа</h2>
           <div class="order__wrapper">
             <form class="order-form" action="index.html" method="post">
               <p class="order-form__description">Approfitta dell'offerta esclusiva! Sconto del 50%!</p>
@@ -85,6 +89,7 @@
         </section>
 
         <section class="test-product">
+          <h2 class="visually-hidden">Тесты</h2>
           <div class="test-product__wrapper">
             <p class="test-product__text">PRODOTTO CLINICAMENTE TESTATO DA YOSHIMITSU Ltd., GIAPPONE</p>
             <svg class="test-product__icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46" height="43" viewBox="0 0 46 43">
@@ -115,14 +120,14 @@
       </section>
 
       <article class="review">
+        <h2 class="visually-hidden">Отзывы врачей</h2>
         <div class="review__wrapper">
           <div class="review__author">
             <picture>
               <source media="(min-width: 1005px)" srcset="img/shutterstock_91260272-desktop.png">
-              <img class="review__image" src="img/Эллипс 1.png" alt="doctor2">
+              <img class="review__image" src="img/doctor2.png" alt="doctor2">
             </picture>
-
-            <span class="review__author--who">Antony Salvor, il primario della clinica Lazarus, Atlanta</span>
+            <span class="review__author review__author--who">Antony Salvor, il primario della clinica Lazarus, Atlanta</span>
           </div>
           <p class="review__text">
             La formula di Casanova non solo fornisce un aumento istantaneo della forza sessuale e del desiderio, ma previene anche la disfunzione erettile garantendo la soddisfazione della coppia eripetuti atti sessuali durante la notte!
@@ -130,5 +135,7 @@
         </div>
       </article>
     </main>
+
+    <script src="js/picturefill.js"></script>
   </body>
 </html>

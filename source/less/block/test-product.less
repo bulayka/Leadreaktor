@@ -3,13 +3,14 @@
   position: relative;
   display: flex;
   width: 306px;
-  background-image: linear-gradient(7.5deg, #030829 18%, #2f60a4 18%, #2f60a4 100%);
+  background-image: linear-gradient(7.5deg, #030829 20%, #2f60a4 20%, #2f60a4 100%);
   padding-top: 40px;
   margin-top: -50px;
   z-index: -1;
 }
 
 .test-product__text {
+  width: 190px;
   font-size: 14px;
   line-height: 17px;
   font-weight: 600;
@@ -30,18 +31,17 @@
 
 @media (min-width: @desktop-width) {
   .test-product {
-    .wrapper();
     width: 945px;
     padding: 0;
+    margin: 0 auto;
     justify-content: flex-start;
-
     margin-top: 0;
   }
 
   .test-product__wrapper {
-    width: 600px;
-    background-image: linear-gradient(3.5deg, #030829 26%, #2f60a4 26%, #2f60a4 100%);
-    background-position: 0 10px;
+    width: 605px;
+    background-image: linear-gradient(3.5deg, #030829 21%, #2f60a4 21%, #2f60a4 100%);
+    background-position: 0 0px;
     background-repeat: no-repeat;
     margin: 0;
     padding: 0;
@@ -51,8 +51,8 @@
     width: 330px;
     font-size: 17.82px;
     line-height: 21px;
-    margin-right: 20px;
-    margin-top: 35px;
+    margin-right: 5px;
+    margin-top: 25px;
   }
 
   .test-product__icon {
@@ -60,7 +60,7 @@
     width: 79px;
     height: 74px;
     order: -1;
-    margin: 20px 15px 0px;
+    margin: 10px 15px 0px;
   }
 
   .test-product__image {
